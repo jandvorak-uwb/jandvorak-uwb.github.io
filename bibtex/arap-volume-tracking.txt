@@ -1,0 +1,12 @@
+@Article{arap-volume-tracking,
+  author    = {Jan Dvo{{\v{r}}}{\'{a}}k and Zuzana K{\'{a}}{\v{c}}erekov{\'{a}} and Petr Van{\v{e}}{\v{c}}ek and Luk{\'{a}}{\v{s}} Hruda and Libor V{\'a}{\v{s}}a},
+  journal   = {Computers \& Graphics},
+  title     = {As-rigid-as-possible volume tracking for time-varying surfaces},
+  year      = {2022},
+  issn      = {0097-8493},
+  month     = feb,
+  pages     = {329--338},
+  volume    = {102},
+  doi       = {10.1016/j.cag.2021.10.015},
+  publisher = {Elsevier {BV}},
+}

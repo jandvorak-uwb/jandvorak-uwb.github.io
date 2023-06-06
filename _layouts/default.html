@@ -11,7 +11,7 @@
 
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -27,17 +27,20 @@
               <h1>
                 Jan Dvořák
               </h1>
-              <p>I am a PhD student at the <a href="https://kiv.zcu.cz/en">Department of Computer Science and Engineering</a>, <a href="https://www.fav.zcu.cz/en/">Faculty of Applied Sciences</a> at <a href="https://www.zcu.cz/en">University of West Bohemia in Pilsen</a>. I focus on compression of Time-varying mesh geometry and related research topics (e.g., temporal models, connectivity coding) under supervision of <a href="https://meshcompression.org">Libor Váša</a>.
+              <p>I am a PhD student at the <a href="https://kiv.zcu.cz/en">Department of Computer Science and Engineering</a>, <a href="https://www.fav.zcu.cz/en/">Faculty of Applied Sciences</a> at <a href="https://www.zcu.cz/en">University of West Bohemia in Pilsen</a>. I focus on compression of Time-varying mesh geometry and related research topics (e.g., temporal models, connectivity coding) under supervision of <a href="http://meshcompression.org">Libor Váša</a>.
               </p>
               <p style="text-align:center">
                 <!--<a target="_blank" href="https://mailhide.io/e/B8TyS"> Email</a> &nbsp;/&nbsp;-->
-                <a href="https://github.com/jandvorak-uwb">GitHub</a> &nbsp;/&nbsp;
-                <a href="https://gitlab.kiv.zcu.cz/jdvorak">University Gitlab</a> &nbsp;/&nbsp;
-                <a href="https://scholar.google.com/citations?user=ZSgJdmUAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
+				<a href="https://orcid.org/0000-0003-4569-1151">ORCID</a> &nbsp;/&nbsp;
+				<a href="https://scholar.google.com/citations?user=ZSgJdmUAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
+				<a href="https://gitlab.kiv.zcu.cz/jdvorak">University Gitlab</a> &nbsp;/&nbsp;
+                <a href="https://github.com/jandvorak-uwb">GitHub</a>
+                
+                
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
-              <img style="width:100%;max-width:100%" alt="profile photo" src="images/photo_square.jpg">
+              <img style="width:100%;max-width:100%" alt="profile photo" src="images/photo.png">
             </td>
           </tr>
         </table>
@@ -59,7 +62,7 @@
           {% if cat == 'research' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
@@ -69,20 +72,24 @@
               <br>
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
               <br>
+			  <a href="{{post.paper}}">paper</a>
+			  {% if post.bibtex %}
+              / <a href="{{post.bibtex}}">bibtex</a>
+              {% endif %}
               {% if post.arxiv %}
-              <a href="{{post.arxiv}}">arxiv</a> /
+              / <a href="{{post.arxiv}}">arxiv</a>
               {% endif %}
               {% if post.video %}
-              <a href="{{post.video}}">video</a> /
+              / <a href="{{post.video}}">video</a>
               {% endif %}
               {% if post.code %}
-              <a href="{{post.code}}">code</a> /
+              / <a href="{{post.code}}">code</a>
               {% endif %}
               {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
+              / <a href="{{post.poster}}">poster</a>
               {% endif %}
               {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
+              / <a href="{{post.slides}}">slides</a>
               {% endif %}
               <p></p>
               {{ post.excerpt }}

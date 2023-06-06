@@ -1,0 +1,12 @@
+@Article{priority-based-connectivity-coding,
+  author    = {Jan Dvo{\v{r}}{\'{a}}k and Zuzana K{\'{a}}{\v{c}}erekov{\'{a}} and Petr Van{\v{e}}{\v{c}}ek and Libor V{\'{a}}{\v{s}}a},
+  journal   = {Computer Graphics Forum},
+  title     = {Priority-based encoding of triangle mesh connectivity for a known geometry},
+  year      = {2022},
+  month     = nov,
+  number    = {1},
+  pages     = {60--71},
+  volume    = {42},
+  doi       = {10.1111/cgf.14719},
+  publisher = {Wiley},
+}
