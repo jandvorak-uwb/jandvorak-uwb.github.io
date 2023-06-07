@@ -1,0 +1,12 @@
+@InProceedings{proximity-based-tracking,
+  author    = {Dvo{\v{r}}{\'a}k, Jan and Van{\v{e}}{\v{c}}ek, Petr and V{\'a}{\v{s}}a, Libor},
+  booktitle = {Computational Science -- ICCS 2021},
+  title     = {Towards Understanding Time Varying Triangle Meshes},
+  year      = {2021},
+  address   = {Cham},
+  editor    = {Paszynski, Maciej and Kranzlm{\"u}ller, Dieter and Krzhizhanovskaya, Valeria V. and Dongarra, Jack J. and Sloot, Peter M. A.},
+  pages     = {45--58},
+  publisher = {Springer International Publishing},
+  doi       = {10.1007/978-3-030-77977-1_4},
+  isbn      = {978-3-030-77977-1},
+}
