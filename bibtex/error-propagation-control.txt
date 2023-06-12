@@ -1,0 +1,12 @@
+@Article{error-propagation-control,
+  author    = {V{\'a}{\v{s}}a, Libor and Dvo{{\v{r}}}{\'{a}}k, Jan},
+  journal   = {Computer Graphics Forum},
+  title     = {Error propagation control in Laplacian mesh compression},
+  year      = {2018},
+  month     = aug,
+  number    = {5},
+  pages     = {61--70},
+  volume    = {37},
+  doi       = {10.1111/cgf.13491},
+  publisher = {Wiley},
+}
