@@ -1,0 +1,9 @@
+@InCollection{Dvorak2023,
+  author    = {Jan Dvo{\v{r}}{\'{a}}k and Filip H{\'{a}}cha and Libor V{\'{a}}{\v{s}}a},
+  booktitle = {Computational Science {\textendash} {ICCS} 2023},
+  publisher = {Springer Nature Switzerland},
+  title     = {Global Optimisation for~Improved Volume Tracking of~Time-Varying Meshes},
+  year      = {2023},
+  pages     = {113--127},
+  doi       = {10.1007/978-3-031-36027-5_9},
+}
