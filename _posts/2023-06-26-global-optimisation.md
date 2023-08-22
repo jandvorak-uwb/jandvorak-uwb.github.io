@@ -10,4 +10,4 @@ venue: "International Conference on Computational Science (ICCS) 2023"
 paper: https://doi.org/10.1007/978-3-031-36027-5_9
 bibtex: /bibtex/global-optimisation.txt
 ---
-In this work, we propose two distinct improvements over the volume tracking. First we discuss improved center affinity based on maximum value encountered up to the currently processed frame. Although this new affinity reduces further the number of tracking irregularities, these are still not prevented. For this reason, we also detect and irregularities and perform a global optimisation in post processing to further improve the tracking quality.
+We propose improved center affinity based on maximum value encountered up to the currently processed frame. We also detect and filter  irregularities and perform a global optimisation in post processing to further improve the tracking quality.
