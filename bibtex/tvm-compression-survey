@@ -1,0 +1,11 @@
+@article{tvm-compression-survey,
+author = {Dvořák, Jan and Hácha, Filip and Arvanitis, Gerasimos and Podgorelec, David and Moustakas, Konstantinos and Váša, Libor},
+title = {Survey of Inter-Prediction Methods for Time-Varying Mesh Compression},
+journal = {Computer Graphics Forum},
+volume = {44},
+number = {1},
+pages = {e15278},
+keywords = {compression algorithms, data compression, modelling, polygonal mesh reduction},
+doi = {https://doi.org/10.1111/cgf.15278},
+year = {2025}
+}
